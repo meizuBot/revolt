@@ -1,0 +1,20 @@
+{
+  "name": "meizubot",
+  "version": "1.0.0",
+  "description": "bot for revolt.chat",
+  "repository": "https://github.com/meizuBot/revolt",
+  "author": "ppotatoo <76911441+ppotatoo@users.noreply.github.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "revolt.js": "^5.0.1-alpha.5",
+    "typescript": "^4.3.5",
+    "yaml": "^1.10.2"
+  },
+  "scripts": {
+    "dev": "tsc-watch",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1"
+  }
+}
